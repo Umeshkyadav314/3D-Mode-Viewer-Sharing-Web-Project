@@ -232,14 +232,14 @@ const HomePage: React.FC = () => {
         textAlign="center"
         my={8}
       >
-        <Heading fontSize="2xl">Store Information</Heading>
+{/*         <Heading fontSize="2xl">Store Information</Heading>
         <Text fontSize={{ base: "md", md: "lg" }}>
           Fake address to the show room | Singapore 530000
         </Text>
         <Text>Open 10am to 8pm daily, includes Eves & Public Holidays</Text>
         <Text as="u" cursor="pointer">
           Visit Showroom
-        </Text>
+        </Text> */}
       </Stack>
     </Stack>
   );
