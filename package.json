@@ -1,5 +1,5 @@
 {
-  "name": "frontend",
+  "name": "3d-mvs-webApp",
   "proxy": "https://jippyhome-be-node-express-mongodb.onrender.com/",
   "private": true,
   "version": "0.0.0",
