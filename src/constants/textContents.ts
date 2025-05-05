@@ -11,7 +11,7 @@ export const productPageContent: string[] = [
 
 // Footer Content
 export const footerContent: string =
-  "Brought to you by Jippie E-Commerce App. © 2024 Jippie Group. All rights reserved.";
+  "Copyright © 2025. All rights reserved.";
 
 // Announcement Content
 export const announcements: string[] = [
