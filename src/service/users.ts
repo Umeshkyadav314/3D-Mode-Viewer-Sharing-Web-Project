@@ -51,9 +51,15 @@ export function getUser(): string | null {
 // Retrieves the user from the token payload if available
 export function getAdmin(): boolean {
   const token = getToken();
-  // console.log(token);
-  return token ? JSON.parse(atob(token.split(".")[1])).payload.is_admin : null;
+  try {
+    if (!token) return false;
+    const payload = JSON.parse(atob(token.split(".")[1]));
+    return !!payload.payload?.is_admin;
+  } catch {
+    return false;
+  }
 }
+
 
 // Checks if the user is signed in by calling an API endpoint
 export async function checkSignin(): Promise<string | null> {
